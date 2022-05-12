@@ -50,8 +50,8 @@ async function createTables () {
 async function createInitialAdmin () {
     try {
         await createAdmin({
-            email: "emmaruthnagano@gmail.com",
-            password: "emma789@eg"
+            email: "test.admin@gmail.com",
+            password: "test.admin"
         })
     } catch (error) {
         throw error
